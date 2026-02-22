@@ -212,7 +212,7 @@ SELECT * FROM `arched-memory-483623-k2.yellow_taxi_dataset.yellow-taxi-tables`;
  
  ## Homework 4
 
- ###[Link to gituhb:](https://github.com/Yankius/DBT/tree/mynytaxi)
+ ###[Link to github:](https://github.com/Yankius/DBT/tree/mynytaxi)
  
 ### Question 1:
  **Answer:** int_trips_unioned only
@@ -271,7 +271,7 @@ FROM `arched-memory-483623-k2.dbt_prod.stg_fhv_tripdate`;
 
  ## Homework 5
 
- ###[Link to gituhb:](https://github.com/Yankius/DBT/tree/mynytaxi)
+ ###[Link to github:](https://github.com/Yankius/Bruin)
  
 ### Question 1:
  **Answer:** .bruin.yml and pipeline/ with pipeline.yml and assets/
