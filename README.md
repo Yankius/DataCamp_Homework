@@ -269,6 +269,31 @@ SELECT COUNT(*) AS total
 FROM `arched-memory-483623-k2.dbt_prod.stg_fhv_tripdate`;
 ```
 
+ ## Homework 5
+
+ ###[Link to gituhb:](https://github.com/Yankius/DBT/tree/mynytaxi)
+ 
+### Question 1:
+ **Answer:** .bruin.yml and pipeline/ with pipeline.yml and assets/
+
+### Question 2:
+  **Answer:** time_interval - incremental based on a time column
+  
+
+### Question 3:
+ **Answer:** bruin run --var 'taxi_types=["yellow"]'
+
+
+### Question 4:
+ **Answer:** bruin run ingestion/trips.py --downstream
+
+### Question 5:
+ **Answer:** not_null: true
+
+
+### Question 6:
+ **Answer:** bruin lineage
+
 
  
 
