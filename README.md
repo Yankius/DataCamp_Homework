@@ -295,7 +295,31 @@ FROM `arched-memory-483623-k2.dbt_prod.stg_fhv_tripdate`;
  **Answer:** bruin lineage
 
 
+ ## Homework 6 Batch-Spark
+
+ ###[Link to github:](https://github.com/Yankius/batch-spark)
  
+### Question 1:
+ **Answer:** i got all sorts of blurb and version 4.1.1
+
+### Question 2:
+  **Answer:** 25 Mb (actual between 24998 to 25016)
+  
+
+### Question 3:
+ **Answer:** 162604
+
+
+### Question 4:
+ **Answer:** 90.6
+
+### Question 5:
+ **Answer:** 4040
+
+
+### Question 6:
+ **Answer:** Governor's Island/Ellis Island/Liberty Island
+
 
 
  
