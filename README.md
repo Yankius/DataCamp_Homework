@@ -320,6 +320,42 @@ FROM `arched-memory-483623-k2.dbt_prod.stg_fhv_tripdate`;
 ### Question 6:
  **Answer:** Governor's Island/Ellis Island/Liberty Island
 
+ ## Homework Workshop - DLT-Marimo_IBIS
 
-
+ ###[Link to github:](https://github.com/Yankius/DLT_marimo_Ibis)
  
+### Question 1:
+ **Answer:** 2009-06-01 to 2009-07-01
+
+ ```
+date_range = trips.aggregate(
+    pickup_start=trips.trip_pickup_date_time.min(),
+    pickup_end=trips.trip_pickup_date_time.max(),
+    dropoff_start=trips.trip_dropoff_date_time.min(),
+    dropoff_end=trips.trip_dropoff_date_time.max(),
+).execute()
+
+date_range
+```
+
+### Question 2:
+  **Answer:** 26.66%
+
+  ```(
+    trips.aggregate(
+        credit_proportion=(trips.payment_type == "Credit").cast("int64").mean()
+    ).execute()
+)
+```
+  
+
+### Question 3:$6,063.41
+
+```
+tips_total = trips.aggregate(
+    total_tips=trips.tip_amt.fill_null(0).sum()
+).execute()
+
+tips_total
+```
+
